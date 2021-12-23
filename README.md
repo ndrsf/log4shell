@@ -42,6 +42,8 @@ make sure you compiled your payload class properly and include it in a Jar (bewa
     * -Dsun.misc.URLClassPath.debug=true 
     * -Dsun.misc.URLClassPath.debugLookupCache=true
 * I omitted using Java packages for the Attack class, if you want to use them the lookup code gets a bit more complex
+* I used jdk1.8.0_151 for Windows and it is vulnerable - if the attack doesn't work, check your JDK version. 
+Maybe one day log4j might even backport the fix to older versions like they did before and this attack won't work at all anymore.
 
 ## Enough, I want to attack stuff myself!
 Easy: 

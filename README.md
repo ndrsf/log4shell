@@ -5,6 +5,8 @@ only the LDAP server uses a simple 3rd party library.
 Be advised that some antivirus scanners are already blocking the Log4j execution, so don't be alarmed if your scanner
 goes off. This code is safe - trust me. Or don't, you can easily check yourself.
 
+Thanks to [mbechler](https://github.com/mbechler) for his support in debugging the LDAP configuration.
+
 ## But... why the 1000th implementation of this security issue?
 I wanted to try it myself from start to finish, and every setup I found uses some library or tools or other programming
 languages to show the attack.

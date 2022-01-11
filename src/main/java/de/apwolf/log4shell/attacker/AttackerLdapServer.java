@@ -24,7 +24,7 @@ import java.net.UnknownHostException;
  */
 public class AttackerLdapServer {
 
-    private static final Logger LOGGER = LogManager.getLogger();
+    private static final Logger LOGGER = LogManager.getLogger(AttackerLdapServer.class);
 
     private static final int PORT = 1389; // port where the LDAP server will be running
 

@@ -5,6 +5,10 @@ only the LDAP server uses a simple 3rd party library.
 Be advised that some antivirus scanners are already blocking the Log4j execution, so don't be alarmed if your scanner
 goes off. This code is safe - trust me. Or don't, you can easily check yourself.
 
+To execute, just run the _de.apwolf.log4shell.Main_ class in your IDE or use Maven:
+1. mvn clean package
+2. java -jar target/log4shell-poc-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+
 Thanks to [mbechler](https://github.com/mbechler) for his support in debugging the LDAP configuration.
 
 ## But... why the 1000th implementation of this security issue?

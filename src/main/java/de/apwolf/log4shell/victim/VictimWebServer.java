@@ -17,7 +17,7 @@ public class VictimWebServer {
 
     public static final int PORT = 8080;
 
-    private static final Logger LOGGER = LogManager.getLogger();
+    private static final Logger LOGGER = LogManager.getLogger(VictimWebServer.class);
 
     public void start() throws IOException {
         HttpServer server = HttpServer.create(new InetSocketAddress(PORT), 0);
